@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LeetCode Metrics</h1>
+        <div class="User-container">
+            <p>Enter the username below</p>
+            <div class="input-field">
+                <input type="text" placeholder="Enter the user name here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <h2 id="total-problem"></h2>
+        <div class="stat-container">
+            <div class="problem-card">
+                <div class="chart" id="easy-chart"></div>
+                <span id="easy-txt">EASY</span>
+                <div class="easy-data extra-data"></div>
+            </div>
+            <div class="problem-card">
+                <div class="chart" id="medium-chart"></div>
+                <span id="medium-txt">Medium</span>
+                <div class="medium-data extra-data"></div>
+            </div>
+            <div class="problem-card">
+                <div class="chart" id="hard-chart"></div>
+                <span id="hard-txt">Hard</span>
+                <div class="hard-data extra-data"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+
+</html>

@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.stat-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    display: none;
+}
+
+.problem-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#easy-txt{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(37, 236, 133);
+}
+
+#medium-txt{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff9f00;
+}
+
+#hard-txt{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.extra-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
